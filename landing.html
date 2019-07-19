@@ -20,7 +20,7 @@
 </head>
 <body>
 
-<div id="landing">
+<!--    <div id="landing">-->
 <!--    <div class="nav-bar container-fluid ">-->
 <!--        <div class="logo nav-list"><img src="https://i.imgur.com/vJULfDZ.png" alt="GrowSquares"></div>-->
 <!--        <div id="how-it-works" class="nav-list">How It Works</div>-->
@@ -28,7 +28,7 @@
 <!--        <div id="gifts" class="nav-list">Gifts</div>-->
 <!--    </div>-->
 
-    <nav class=" navbar navbar-expand-md navbar-light fixed-top pt-md-3 px-md-4">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top pt-md-3 px-md-4">
         <a id="logo" class="navbar-brand" href="#"><img src="https://i.imgur.com/YH2uq2r.png" width="30" height="30" class="d-inline-block align-top mr-1" alt="">
             GrowSquares</a>
 
@@ -59,7 +59,7 @@
     <div class="bg-img container-fluid d-flex justify-content-center justify-content-md-start align-items-center mt-md-3">
         <img id="main-img">
         <div id="main-message-container">
-            <p id="main-message" class="text-center text-md-left "><span class="changing-word">Personal Garden</span><br>
+            <p id="main-message" class="text-center text-md-left "><span id="headlineAdj">Better Garden.</span><br>
                 Where Nature and<br>
                 Technology meet</p>
             <p id="main-sub-message" class="text-center text-md-left">With our customized modular garden and complimentary app, anyone can grow their own beautiful, healthy and delicious food with ease</p>
@@ -67,7 +67,7 @@
         </div>
     </div>
 
-    <div class="data-science-container container-fluid mt-3">
+    <div class="data-science-container container-fluid mt-3 max-width">
         <div class="row">
             <div class="col-sm data-science">
                 <img class="data-science-img" src="" alt="Image">
@@ -98,16 +98,32 @@
     </div>
 
     <div id="s-2" class="container-fluid mt-4 text-center">
-        <div class="step-by-step mt-1">
-            <div></div>
-            <div></div>
+        <div class="step-by-step mt-1 d-md-flex flex-md-wrap justify-content-center align-items-center">
+            <div class="step-img mx-auto"></div>
+            <div class="step-msg mx-auto"><span class="titles">Identify microclimae with your garden location</span><br>
+                Growsquares takes into account weather, solar, and soil based features in order to identify your unique microclimate.
+            </div>
         </div>
-        <div class="step-by-step mt-1"></div>
-        <div class="step-by-step mt-1"></div>
-        <div class="step-by-step mt-1"></div>
-
+        <div class="step-by-step mt-1 d-md-flex flex-md-wrap justify-content-center flex-md-row-reverse align-items-center">
+            <div class="step-img mx-auto"></div>
+            <div class="step-msg mx-auto"><span class="titles">Select the right plants for you</span><br>
+                No longer guess or go through many seasons of trial and error,  gain insight into what plants  will grow best in your space with our Plant Recommendation engine</div>
+        </div>
+        <div class="step-by-step mt-1  d-md-flex flex-md-wrap justify-content-center align-items-center">
+            <div class="step-img mx-auto"></div>
+            <div class="step-msg mx-auto"><span class="titles">Place and Grow</span><br>
+                Place your Growsquares in the ideal configuration for optimal plant compatibility and then just water! You will be notified when and how much to water as your plant grows.</div>
+        </div>
+        <div class="step-by-step mt-1 d-md-flex flex-md-wrap justify-content-center flex-md-row-reverse align-items-center">
+            <div class="step-img mx-auto"></div>
+            <div class="step-msg mx-auto"><span class="titles">Harvest and Enjoy!</span><br>
+                Gain insights into what growth stage your plant is in and how to best take care of it for the best yields.</div>
+        </div>
     </div>
 
+<footer>
+
+</footer>
 
 <!--    {{ message }}-->
 
@@ -118,7 +134,7 @@
     //         message: 'Hello Vue!'
     //     }
     // });
-
+    // });
     let dataScience = document.getElementsByClassName("data-science");
     let menuButton = document.getElementById('menu-button');
     let secondButton = document.getElementsByClassName('second-button');
@@ -128,7 +144,7 @@
     //     secondButton.addEventListener('click', function() {
     //         animatedIcon2.classList.toggle('open');
     //     });
-    // }
+    //
 
     $(document).ready(function () {
         $('.second-button').on('click', function () {
@@ -137,6 +153,26 @@
 
     });
 
+    const adjectives = ['Personal Gardens.', 'Smarter Gardens.', 'Tastier Gardens.', 'Easier Gardens.',
+        'Happier Gardens.', 'Healthier Gardens.', 'Your Garden.'
+    ];
+    const headlineAdj = $("#headlineAdj");
+    const headlineEl = document.getElementById('headlineAdj');
+    let count = 0;
+    setInterval(function () {
+        setTimeout(function () {
+            if (count < 7) {
+                headlineAdj.fadeTo(500, 0.005);
+                setTimeout(function () {
+                    headlineEl.innerText = adjectives[count % adjectives.length];
+                    count++;
+                    setTimeout(function () {
+                        headlineAdj.fadeTo(500, 1.0);
+                    }, 500);
+                }, 1500);
+            }
+        }, 200);
+    }, 5000);
 
 </script>
 </body>

@@ -38,7 +38,8 @@
     }
 
     .titles {
-
+        font-family: 'roboto', sans-serif;
+        font-size: 20px;
     }
 
     .buttons {
@@ -170,8 +171,23 @@
     }
 
     .step-by-step {
-
         background-color: skyblue;
+    }
+
+    #s-2 {
+        background-color: green;
+    }
+    .step-img {
+        width: 300px;
+        min-width: 300px;
+        height: 300px;
+        background-color: white;
+    }
+
+    .step-msg {
+        width: 300px;
+        min-width: 300px;
+        font-size: 16px;
     }
 
 /* ----------------- NAV toggler ICON -----------------  */
@@ -284,12 +300,12 @@
         margin-left: 20vw;
     }
 
-    .data-science-container {
-        max-width: 1336px;
-    }
-
     .data-science {
         font-size: 20px;
+    }
+
+    .data-science-container, #s-2 {
+        max-width: 1336px;
     }
 
     #video-container {
@@ -301,4 +317,17 @@
         font-size: 20px;
     }
 
+}
+
+@media (min-width: 960px) {
+
+
+
+    .titles {
+        font-size: 24px;
+    }
+
+    .step-msg {
+        font-size: 20px;
+    }
 }
