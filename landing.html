@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GrowSquares</title>
+<!--    <script src="https://unpkg.com/vue"></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdeliv r.net/npm/vue/dist/vue.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="landing.css">
+<!--    google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Poppins:500|Roboto:500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="landing">
+<!--    <div class="nav-bar container-fluid ">-->
+<!--        <div class="logo nav-list"><img src="https://i.imgur.com/vJULfDZ.png" alt="GrowSquares"></div>-->
+<!--        <div id="how-it-works" class="nav-list">How It Works</div>-->
+<!--        <div id="products" class="nav-list">Products</div>-->
+<!--        <div id="gifts" class="nav-list">Gifts</div>-->
+<!--    </div>-->
+
+    <nav class=" navbar navbar-expand-md navbar-light fixed-top pt-md-3 px-md-4">
+        <a id="logo" class="navbar-brand" href="#"><img src="https://i.imgur.com/YH2uq2r.png" width="30" height="30" class="d-inline-block align-top mr-1" alt="">
+            GrowSquares</a>
+
+        <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navBarDrop"
+                aria-controls="navBarDrop" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navBarDrop">
+            <ul class="navbar-nav mr-auto navbar-center">
+                <li class="nav-item">
+                    <a id="how-it-works" class="nav-link" href="#">HOW IT WORKS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a id="products" class="nav-link" href="#">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                    <a id="gifts" class="nav-link" href="#">GIFTS</a>
+                </li>
+            </ul>
+
+            <a class="mr-sm-2 nav-link" href="#"> SIGN IN </a>
+<!--            <button class="btn btn-success my-2 my-sm-0" type="submit">  SIGN UP  </button>-->
+            <button class="btn mb-3 mb-md-0 mx-1 nav-btn" type="submit">  PRE-ORDER  </button>
+        </div>
+    </nav>
+
+    <div class="bg-img container-fluid d-flex justify-content-center justify-content-md-start align-items-center mt-md-3">
+        <img id="main-img">
+        <div id="main-message-container">
+            <p id="main-message" class="text-center text-md-left "><span class="changing-word">Personal Garden</span><br>
+                Where Nature and<br>
+                Technology meet</p>
+            <p id="main-sub-message" class="text-center text-md-left">With our customized modular garden and complimentary app, anyone can grow their own beautiful, healthy and delicious food with ease</p>
+            <button class="btn btn-lg "></button>
+        </div>
+    </div>
+
+    <div class="data-science-container container-fluid mt-3">
+        <div class="row">
+            <div class="col-sm data-science">
+                <img class="data-science-img" src="" alt="Image">
+                <p>ENVIRONMENTALLY ANALYZED</p>
+            </div>
+            <div class="col-sm data-science">
+                <img class="data-science-img" src="" alt="image">
+                <p>CUSTOM BUILD</p>
+            </div>
+            <div class="col-sm data-science">
+                <img class="data-science-img" src="" alt="image">
+                <p>EASY TO USE</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 text-center">
+        <button class="btn mb-3 mb-md-0 mx-1 start-btn" type="submit">  GET GROWING  </button>
+    </div>
+
+    <div id="video-container" class="container-fluid mt-5 text-center d-none d-md-flex flex-md-column justify-content-center align-items-center">
+        <div id="video-text" class="mb-3 body1 ">Discover how easy it is <br>
+            to Grow GrowSquares</div>
+        <div>
+            <div class="d-inline d-none d-md-block"><img id="video-icon" src="https://i.imgur.com/C1GvLFD.png" width="50px"></div>
+            <div class="d-inline d-none d-md-block body2">Watch the Video</div>
+        </div>
+    </div>
+
+    <div id="s-2" class="container-fluid mt-4 text-center">
+        <div class="step-by-step mt-1">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="step-by-step mt-1"></div>
+        <div class="step-by-step mt-1"></div>
+        <div class="step-by-step mt-1"></div>
+
+    </div>
+
+
+<!--    {{ message }}-->
+
+<script>
+    // var landing = new Vue({
+    //     el: '#landing',
+    //     data: {
+    //         message: 'Hello Vue!'
+    //     }
+    // });
+
+    let dataScience = document.getElementsByClassName("data-science");
+    let menuButton = document.getElementById('menu-button');
+    let secondButton = document.getElementsByClassName('second-button');
+    let animatedIcon2 = document.getElementsByClassName('animated-icon2');
+
+    // window.onload = function() {
+    //     secondButton.addEventListener('click', function() {
+    //         animatedIcon2.classList.toggle('open');
+    //     });
+    // }
+
+    $(document).ready(function () {
+        $('.second-button').on('click', function () {
+            $('.animated-icon2').toggleClass('open');
+        });
+
+    });
+
+
+</script>
+</body>
+</html>
