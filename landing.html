@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>GrowSquares</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <!--    <script src="https://unpkg.com/vue"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -20,14 +21,7 @@
 </head>
 <body>
 
-<!--    <div id="landing">-->
-<!--    <div class="nav-bar container-fluid ">-->
-<!--        <div class="logo nav-list"><img src="https://i.imgur.com/vJULfDZ.png" alt="GrowSquares"></div>-->
-<!--        <div id="how-it-works" class="nav-list">How It Works</div>-->
-<!--        <div id="products" class="nav-list">Products</div>-->
-<!--        <div id="gifts" class="nav-list">Gifts</div>-->
-<!--    </div>-->
-
+<!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top pt-md-3 px-md-4">
         <a id="logo" class="navbar-brand" href="#"><img src="https://i.imgur.com/YH2uq2r.png" width="30" height="30" class="d-inline-block align-top mr-1" alt="">
             GrowSquares</a>
@@ -56,78 +50,97 @@
         </div>
     </nav>
 
-    <div class="bg-img container-fluid d-flex justify-content-center justify-content-md-start align-items-center mt-md-3">
-        <img id="main-img">
-        <div id="main-message-container">
-            <p id="main-message" class="text-center text-md-left "><span id="headlineAdj">Better Garden.</span><br>
+<!-- S-1 : main messages -->
+    <div class="bg-img container-fluid d-flex justify-content-center align-items-center">
+<!--        <img id="main-img">-->
+        <div id="main-message-container" class="pt-5">
+<!--            <p id="main-message" class="text-center text-md-left"><span id="headlineAdj">Better Garden.</span><br>-->
+            <p id="main-message" class="roboto text-center"><span id="headlineAdj">Better Garden.</span><br>
                 Where Nature and<br>
                 Technology meet</p>
-            <p id="main-sub-message" class="text-center text-md-left">With our customized modular garden and complimentary app, anyone can grow their own beautiful, healthy and delicious food with ease</p>
-            <button class="btn btn-lg "></button>
-        </div>
-    </div>
-
-    <div class="data-science-container container-fluid mt-3 max-width">
-        <div class="row">
-            <div class="col-sm data-science">
-                <img class="data-science-img" src="" alt="Image">
-                <p>ENVIRONMENTALLY ANALYZED</p>
-            </div>
-            <div class="col-sm data-science">
-                <img class="data-science-img" src="" alt="image">
-                <p>CUSTOM BUILD</p>
-            </div>
-            <div class="col-sm data-science">
-                <img class="data-science-img" src="" alt="image">
-                <p>EASY TO USE</p>
+<!--            <p id="main-sub-message" class="text-center text-md-left">With our customized modular garden and complimentary app, anyone can grow their own beautiful, healthy and delicious food with ease</p>-->
+            <p id="main-sub-message" class="openSans text-center">With our customized modular garden and complimentary app, anyone can grow their own beautiful, healthy and delicious food with ease</p>
+            <div class="container-fluid mt-5 text-center">
+                <button class="btn start-btn openSans" type="submit">  GET GROWING  </button>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid mt-5 text-center">
+<!-- S-2 : data science elements -->
+    <div class="data-science-container container-fluid mt-5 mb-5 max-width">
+        <div class="row justify-content-sm-center text-center">
+            <div class="col-sm data-science d-flex justify-content-center flex-column">
+                <div class="body2 text-center mb-1 mt-auto mt-sm-0 roboto"><strong>ENVIRONMENTALLY ANALYZED</strong></div>
+                <div class="subBody text-center data-science-text mb-sm-auto openSans">Identify the unique characteristics of your space, enabling us to
+                    recommend the perfect mix of plants for any location.</div>
+            </div>
+            <div class="col-sm data-science d-flex justify-content-center flex-column">
+                <div class="body2 text-center mb-1 mt-auto mt-sm-auto roboto"><strong>CUSTOM BUILD</strong></div>
+                <div class="subBody data-science-text text-center openSans">Garden according to your plot's unique micro-environment and nutrient profile.
+                </div>
+            </div>
+            <div class="col-sm data-science d-flex justify-content-center flex-column">
+                <div class="body2 text-center mb-1 mt-auto mt-sm-0 roboto"><strong>EASY TO USE</strong></div>
+                <div class="subBody data-science-text text-center mb-sm-auto openSans">Receive insights and step-by-step instructions that enable you to confidently care for your garden.</div>
+            </div>
+        </div>
+    </div>
+
+<!-- get growing button -->
+    <div class="container-fluid my-5 text-center">
         <button class="btn mb-3 mb-md-0 mx-1 start-btn" type="submit">  GET GROWING  </button>
     </div>
 
-    <div id="video-container" class="container-fluid mt-5 text-center d-none d-md-flex flex-md-column justify-content-center align-items-center">
-        <div id="video-text" class="mb-3 body1 ">Discover how easy it is <br>
+<!-- S-3 : video container -->
+    <div id="video-container" class="container-fluid my-md-5 text-center d-none d-md-flex flex-md-column justify-content-center align-items-center">
+        <div class="mb-3 roboto headlineS text-white">Discover how easy it is <br>
             to Grow GrowSquares</div>
         <div>
-            <div class="d-inline d-none d-md-block"><img id="video-icon" src="https://i.imgur.com/C1GvLFD.png" width="50px"></div>
-            <div class="d-inline d-none d-md-block body2">Watch the Video</div>
+            <div class="d-inline d-none d-md-block mb-1"><img id="video-icon" src="https://i.imgur.com/C1GvLFD.png" width="50px"></div>
+            <div class="d-inline d-none d-md-block openSans body2 text-white">Watch the Video</div>
         </div>
     </div>
 
-    <div id="s-2" class="container-fluid mt-4 text-center">
+<!-- S-4 : how to use growsquares -->
+    <div id="s-2" class="container-fluid py-5 text-center max-width">
         <div class="step-by-step mt-1 d-md-flex flex-md-wrap justify-content-center align-items-center">
-            <div class="step-img mx-auto"></div>
-            <div class="step-msg mx-auto"><span class="titles">Identify microclimae with your garden location</span><br>
+            <div class="step-img mx-auto mr-md-3 mr-lg-auto"><img src="" class="step-img"></div>
+            <div class="step-msg mx-auto ml-md-3 ml-lg-auto openSans"><span class="titles roboto">Identify microclimae with your garden location</span><br>
                 Growsquares takes into account weather, solar, and soil based features in order to identify your unique microclimate.
             </div>
         </div>
         <div class="step-by-step mt-1 d-md-flex flex-md-wrap justify-content-center flex-md-row-reverse align-items-center">
-            <div class="step-img mx-auto"></div>
-            <div class="step-msg mx-auto"><span class="titles">Select the right plants for you</span><br>
+            <div class="step-img mx-auto ml-md-3 ml-lg-5"><img src="" class="step-img"></div>
+            <div class="step-msg mx-auto mr-md-3 mr-lg-5 openSans"><span class="titles roboto">Select the right plants for you</span><br>
                 No longer guess or go through many seasons of trial and error,  gain insight into what plants  will grow best in your space with our Plant Recommendation engine</div>
         </div>
         <div class="step-by-step mt-1  d-md-flex flex-md-wrap justify-content-center align-items-center">
-            <div class="step-img mx-auto"></div>
-            <div class="step-msg mx-auto"><span class="titles">Place and Grow</span><br>
+            <div class="step-img mx-auto mr-md-3 mr-lg-5"><img src="" class="step-img"></div>
+            <div class="step-msg mx-auto ml-md-3 ml-lg-5 openSans"><span class="titles roboto">Place and Grow</span><br>
                 Place your Growsquares in the ideal configuration for optimal plant compatibility and then just water! You will be notified when and how much to water as your plant grows.</div>
         </div>
         <div class="step-by-step mt-1 d-md-flex flex-md-wrap justify-content-center flex-md-row-reverse align-items-center">
-            <div class="step-img mx-auto"></div>
-            <div class="step-msg mx-auto"><span class="titles">Harvest and Enjoy!</span><br>
+            <div class="step-img mx-auto ml-md-3 ml-lg-5"><img src="" class="step-img"></div>
+            <div class="step-msg mx-auto mr-md-3 mr-lg-5 openSans"><span class="titles roboto">Harvest and Enjoy!</span><br>
                 Gain insights into what growth stage your plant is in and how to best take care of it for the best yields.</div>
         </div>
     </div>
 
-<footer>
-    <div class="footer-content">
-        <p>Our Mission</p>
+<!-- S-5 : friends & Collaborators -->
+    <div id="friends" class="container-fluid d-flex justify-content-center max-width">
+        <img id="friends-img" src="https://i.imgur.com/1a85CVV.png" >
     </div>
 
-    <div class="footer-content">
-        <p>About Us</p>
+<!-- footer -->
+<footer class="container-fluid py-5 d-flex justify-content-center">
+    <div class="footer-content mb-5 text-white ml-5">
+        <a href="#">Our Mission</a>
+    </div>
+    <div class="footer-content mb-5 text-white mr-5">
+        <a href="#">About Us</a>
+    </div>
+    <div class="container-fluid">
+        <img class="social-medai-icons" src="">
     </div>
 </footer>
 

@@ -1,3 +1,5 @@
+@import
+
 /*Show Smart-phone layouts*/
 
 /*@media (min-width: 480px) { ... }*/
@@ -12,45 +14,54 @@
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Poppins', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
+    .openSans {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .roboto {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .poppins {
+        font-family: 'Poppins', sans-serif;
+    }
 
     .headlineL {
-        font-family: 'Roboto', sans-serif;
         font-size: 48px;
     }
 
     .headlineS {
+        font-size: 36px;
+    }
 
+    .titles {
+        font-size: 20px;
     }
 
     .body1 {
-        font-family: 'Open Sans', sans-serif;
         font-size: 18px;
     }
 
     .body2 {
-        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
     }
 
     .subBody {
-        font-family: 'Open Sans', sans-serif;
         font-size: 14px;
     }
 
-    .titles {
-        font-family: 'roboto', sans-serif;
-        font-size: 20px;
+
+    .color-green {
+        color: #48ae76;
     }
 
     .buttons {
         font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
+        border-radius: 20px;
+        color: white;
+        background-image: linear-gradient(to bottom right, #48ae76,#8cc63f);
     }
-
-
-
-
-
 
     body {
         font-family: 'Open Sans', sans-serif;
@@ -64,13 +75,16 @@
     nav.navbar {
         margin: 0 auto;
         min-width: 320px;
-
         background-color: white;
     }
 
     .navbar-toggler {
         border-color: white;
         border-style: none;
+    }
+
+    .navbar-brand {
+        margin-right: 10px;
     }
 
     .nav-item a:hover {
@@ -80,10 +94,14 @@
 
     a {
         color: inherit;
+
     }
 
-    .nav-item:hover {
-        color: #48ae76;
+    a.nav-link {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dbe4e5;
+        font-size: 14px;
     }
 
     .nav-btn, .start-btn {
@@ -93,11 +111,6 @@
         color: white;
         background-image: linear-gradient(to bottom right, #48ae76,#8cc63f);
     }
-
-    /*.nav-btn:hover {*/
-    /*    color: white;*/
-    /*    background-color: #48ae76;*/
-    /*}*/
 
     img {
         object-fit: contain;
@@ -110,21 +123,27 @@
     }
 
     .bg-img {
-        background-color: lightgray;
+        margin-top: 62px;
         width: 100vw;
-        height: 80vh;
+        height: 60vh;
+        background-image:url(https://i.imgur.com/ug60Sxa.png);
+        /*background-image:url(https://i.imgur.com/PkRAK6q.jpg);*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
+
+    /*#main-img {*/
+    /*    position:absolute;*/
+    /*    left:0px;*/
+    /*    top:0px;*/
+    /*    z-index:-1;*/
+    /*}*/
 
     nav {
         text-align: center;
     }
 
-
-    a.nav-link {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #dbe4e5;
-    }
 
     a.mr-sm-2 {
         padding-bottom: 20px;
@@ -135,11 +154,13 @@
         font-family: 'Roboto', sans-serif;
         font-size: 36px;
         min-width: 320px;
+        line-height: 40px;
     }
 
     #main-sub-message {
-        width: 90vw;
-        max-width: 550px;
+        font-size: 14px;
+        width: 65vw;
+        max-width: 415px;
         min-width: 320px;
     }
 
@@ -150,37 +171,28 @@
     .data-science {
         text-align: center;
         height: 400px;
-        background-color: rgba(255,255,0,0.5);
         /*margin: 50px 5px 50px 5px;*/
-        font-family: 'Roboto', sans-serif;
         font-size: 18px;
         min-width: 320px;
     }
 
-    .data-science-img {
-
+    .data-science-text {
+        margin: 0 auto;
+        max-width: 270px;
     }
 
     .pg-break {
         height: 50px;
     }
 
-    #video-container {
-        background-color: orange;
-        height: 200px;
-    }
-
     .step-by-step {
-        background-color: skyblue;
+
     }
 
-    #s-2 {
-        background-color: green;
-    }
     .step-img {
-        width: 300px;
-        min-width: 300px;
-        height: 300px;
+        width: 400px;
+        min-width: 320px;
+        height: 400px;
         background-color: white;
     }
 
@@ -190,21 +202,27 @@
         font-size: 16px;
     }
 
+    #friends-img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
     footer {
-        width: 100vw;
         height: auto;
-        background-color: white;
+        background-color: #48ae76;
         margin-top: 50px;
-        display: flex;
-        justify-content: center;
     }
 
     .footer-content {
-        margin: 0px 5px 0px 5px;
-        width: 320px;
-        background-color: pink;
-        text-align: center;
+        width: 160px;
+    }
 
+    #headlineAdj {
+        color: #48ae76;
+    }
+
+    .max-width {
+        max-width: 1336px;
     }
 /* ----------------- NAV toggler ICON -----------------  */
     .animated-icon2 {
@@ -288,8 +306,17 @@
 /* ----------------- SM -----------------  */
 
 @media (min-width: 576px) {
+
+    .data-science-container {
+        background-image:url(https://i.imgur.com/xmpEdvK.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     .data-science {
         min-width: 182px;
+
     }
 }
 
@@ -307,43 +334,84 @@
         text-align: center;
     }
 
+    .bg-img {
+        margin-top: 62px;
+        width: 100vw;
+        height: 60vh;
+        background-image:url(https://i.imgur.com/ug60Sxa.png);
+        /*background-image:url(https://i.imgur.com/PkRAK6q.jpg);*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .bg-img {
+        margin-top: 70px;
+        width: 100vw;
+        height: 80vh;
+        /*background-image:url(https://i.imgur.com/ug60Sxa.png);*/
+        background-image:url(https://i.imgur.com/PkRAK6q.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     #main-message {
         /*font-family: 'Roboto', sans-serif;*/
         font-size: 48px;
+        line-height: 56px;
     }
 
+    #main-sub-message {
+        font-size: 16px;
+        width: 530px;
+        max-width: 530px;
+    }
+
+
     #main-message-container {
-        margin-left: 20vw;
+        /*margin-left: 20vw;*/
     }
 
     .data-science {
         font-size: 20px;
     }
 
-    .data-science-container, #s-2 {
-        max-width: 1336px;
-    }
-
     #video-container {
-        background-color: orange;
+        background-image:url(https://i.imgur.com/3GJfYYL.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: dimgrey;
+        background-blend-mode: multiply;
         height: 250px;
     }
 
-    #video-text {
-        font-size: 20px;
+    #video-icon {
+        cursor: pointer;
     }
 
+    #video-icon:hover {
+        background-image: url(https://i.imgur.com/iAN6g3O.png);
+
+    }
 }
 
+/* ----------------- LG -----------------  */
+
 @media (min-width: 960px) {
-
-
+    /* font size bigger on large screen */
+    a.nav-link {
+        font-size: 16px;
+    }
 
     .titles {
         font-size: 24px;
     }
 
     .step-msg {
+        width: 500px;
         font-size: 20px;
     }
 }
