@@ -1,0 +1,24 @@
+.process-circle {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: #d8d8d8;
+    padding-top: auto;
+    padding-right:
+    display: inline-block;
+    font-size: 16px;
+}
+
+.process-circle:hover {
+    border: 1px solid #48ae76;
+    color: #48ae76;
+}
+
+.process-circle-extra {
+    width: 30px;
+    height: 30px;
+}

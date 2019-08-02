@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cc97e9-f4fa-4745-9902-54a01946febc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/account.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signin/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,6 +40,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/signin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -40,6 +51,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/signin" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/account" />
+      <recent name="$PROJECT_DIR$/signup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/checkout" />
+      <recent name="$PROJECT_DIR$/style" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +93,9 @@
       <workItem from="1563288674451" duration="35397000" />
       <workItem from="1563545912508" duration="9436000" />
       <workItem from="1563817707360" duration="471000" />
-      <workItem from="1564584528151" duration="16206000" />
+      <workItem from="1564584528151" duration="30022000" />
+      <workItem from="1564712243055" duration="855000" />
+      <workItem from="1564713521287" duration="2540000" />
     </task>
     <servers />
   </component>

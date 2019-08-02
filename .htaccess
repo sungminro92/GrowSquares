@@ -1,0 +1,5 @@
+FallbackResource /index.html
+FallbackResource checkout/index.html
+FallbackResource signup/index.html
+FallbackResource signin/index.html
+FallbackResource account/index.html
