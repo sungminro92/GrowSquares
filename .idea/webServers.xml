@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="14808f17-eff0-4db1-b281-a6434e3176d5" name="web" url="http://growsquares.com">
-        <fileTransfer port="0" accessType="LOCAL" />
+      <webServer id="b71a6bea-0341-4f2d-9067-2c614447eadb" name="growsquares" url="http://localhost:63342/website-UI">
+        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

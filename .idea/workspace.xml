@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cc97e9-f4fa-4745-9902-54a01946febc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signin/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,7 +92,8 @@
       <workItem from="1563817707360" duration="471000" />
       <workItem from="1564584528151" duration="30022000" />
       <workItem from="1564712243055" duration="855000" />
-      <workItem from="1564713521287" duration="2540000" />
+      <workItem from="1564713521287" duration="3600000" />
+      <workItem from="1565012465920" duration="3750000" />
     </task>
     <servers />
   </component>

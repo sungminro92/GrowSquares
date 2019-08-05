@@ -11,12 +11,17 @@
 /*Large devices (desktops, 992px and up)*/
 /*@media (min-width: 992px)*/
 
-/*font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Poppins', sans-serif;*/
-/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Arial', sans-serif;*/
+/*{ font-weight: 700 }*/
 
-    .openSans {
+/*font-family: 'Poppins', sans-serif;*/
+/*{ font-weight:500 }*/
+
+/*font-family: 'Lato', sans-serif;*/
+
+    .openSansLight {
         font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
     }
 
     .roboto {
@@ -62,10 +67,6 @@
         border-radius: 20px;
         color: white;
         background-image: linear-gradient(to bottom right, #48ae76,#8cc63f);
-    }
-
-    body {
-        font-family: 'Open Sans', sans-serif;
     }
 
     #logo  {
