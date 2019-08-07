@@ -119,7 +119,7 @@
         padding-top: 20px;
         padding-bottom: 10px;
         border-bottom: 1px solid #dbe4e5;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .nav-btn, .start-btn {
@@ -388,7 +388,8 @@
     }
 
     #main-message {
-        /*font-family: 'Roboto', sans-serif;*/
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
         font-size: 48px;
         line-height: 56px;
     }
